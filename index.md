@@ -439,17 +439,16 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 SETUP
 
 <h2 id="setup">Setup</h2>
-<div id="R"> 
-  <ul>
-    <li>
-      We will teach all sections of this workshop using an <a href="https://jupyterhub.regeneron.regn.com/">Regeneron Jupyterhub</a>,
-      a programming environment that runs in a web browser. 
-    </li>
-    <li>
-      The current versions of the Chrome, Safari and Firefox browsers are all supported
-    </li>
-    <li>
-      To access R-studio, point your browser to <a href="https://jupyterhub.regeneron.regn.com/">Jupyterhub</a> and log in with your Regeneron credentials
-    </li>
-  </ul>
-</div>
+<ul>
+  <li>
+    We will teach all sections of this workshop using an <a href="https://jupyterhub.regeneron.regn.com/">Regeneron Jupyterhub</a>,
+    a programming environment that runs in a web browser. 
+  </li>
+  <li>
+    The current versions of the Chrome, Safari and Firefox browsers are all supported
+  </li>
+  <li>
+    To access R-studio, point your browser to <a href="https://jupyterhub.regeneron.regn.com/">Jupyterhub</a> and log in with your Regeneron credentials
+  </li>
+</ul>
+
