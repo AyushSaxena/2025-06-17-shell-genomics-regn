@@ -6,10 +6,10 @@ address: "Regeneron, Tarrytown, NY"
 country: "us"
 language: "en"
 latlng: #"41.732190,-72.793431"
-humandate: "June 17, 2025"
+humandate: "June 19, 2025"
 humantime: "8:30 am - 4:30 pm"
-startdate: 2019-06-13
-enddate: 2019-06-13
+startdate: 2019-06-19
+enddate: 2019-06-19
 instructor: ["Ayush Shekhar Saxena", "Zebulun Arendsee"]
 helper: ["Mohammed Hussain","Aarushi Gajri"]
 email: ["ayushshekhar.saxena@regeneron.com"]
