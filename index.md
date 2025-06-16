@@ -13,7 +13,7 @@ enddate: 2019-06-13
 instructor: ["Ayush Shekhar Saxena", "Zebulun Arendsee"]
 helper: ["Mohammed Hussain","Aarushi Gajri"]
 email: ["ayushshekhar.saxena@regeneron.com"]
-collaborative_notes: https://pad.carpentries.org/2025-06-17-genomics-regn
+collaborative_notes: https://pad.carpentries.org/2025-06-17-shell-genomics-regn
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -35,7 +35,7 @@ For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
 
-<div class="alert alert-danger">
+<!-- <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to
 <a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
 your own website. If you are running a self-organized workshop or have not put
@@ -48,7 +48,7 @@ set the `pilot` field to `true` in `_config.yml`.
 For workshops teaching a lesson in The Carpentries Incubator,
 remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
 fields in `_config.yml`
-</div>
+</div> -->
 
 {% comment %}
 8< ============================= until here ==================
@@ -58,13 +58,13 @@ fields in `_config.yml`
 Check DC curriculum
 {% endcomment %}
 
-{% if site.carpentry == "dc" %}
+<!-- {% if site.carpentry == "dc" %}
 {% unless site.curriculum == "dc-astronomy" or site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-geospatial" or site.curriculum == "dc-image" or site.curriculum == "dc-socsci" %}
 <div class="alert alert-warning">
 It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>dc-image</code>, <code>dc-astronomy</code>, <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
 </div>
 {% endunless %}
-{% endif %}
+{% endif %} -->
 
 {% comment %}
 Check SWC curriculum
@@ -213,13 +213,11 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Participants must bring a Regeneron laptop, either Mac or PC which must have access to a browser (Chrome, firefox).
   {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    :
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  
 </p>
 
 {% comment %}
@@ -409,18 +407,23 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2>Lessons</h2>
+The lessons used in the workshop were developed by <a href="https://datacarpentry.org/">Data Carpentry<a/> under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> license.
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in 
-<a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
-{% endif %}
+<h2 id="schedule">Schedule</h2>
+<h3>Room 34-252</h3>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Thursday, June 13</h3>
+    <table class="table table-striped">
+      <tr> <th>Time</th><th>Subject</th><th>Instructor</th></tr>
+      <tr> <td>8:30</td> <td>Setup and Overview</td><td><span></span></td></tr>
+      <tr> <td>9:30 - 12:00</td> <td><a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the unix shell for Genomics</a></td><td><span>Zebulun Arendsee</span></td></tr>
+      <tr> <td>1:00 - 3:50</td> <td><a href="https://datacarpentry.github.io/wrangling-genomics/">Introduction to genomics</a></td><td><span>Ayush Saxena</span></td></tr>
+    </table>
+  </div>
+</div>
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
@@ -434,8 +437,6 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 
 <hr/>
 
-
-{% comment %}
 SETUP
 
 <h2 id="setup">Setup</h2>
