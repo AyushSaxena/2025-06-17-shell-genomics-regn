@@ -415,7 +415,7 @@ The lessons used in the workshop were developed by <a href="https://datacarpentr
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Thursday, June 13</h3>
+    <h3>Thursday, June 19</h3>
     <table class="table table-striped">
       <tr> <th>Time</th><th>Subject</th><th>Instructor</th></tr>
       <tr> <td>8:30</td> <td>Setup and Overview</td><td><span></span></td></tr>
